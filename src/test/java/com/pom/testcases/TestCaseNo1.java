@@ -10,7 +10,7 @@ import com.pom.pageclass.TimeTrackPageClass;
 public class TestCaseNo1 extends Base {
 
 	
-	@Test(description = "Login Functionality")
+	@Test(description = "Login Functionality with valid username and password")
 	public void LoginFun() throws InterruptedException   {
 		
 		LoginPageClass lp=new LoginPageClass(driver);
